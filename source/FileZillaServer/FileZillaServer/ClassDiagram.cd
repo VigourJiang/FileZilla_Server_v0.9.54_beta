@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CAsyncSocketExHelperWindow" Collapsed="true">
+    <Position X="6" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgAAUACAAACAAAABIAAAAEAAAAAAAIAAAAABAAIA=</HashCode>
+      <FileName>J:\FileZilla_Server\source\AsyncSocketEx.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="COptionsHelperWindow" Collapsed="true">
+    <Position X="1" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAIAAAAAAEAAAAAAAAAAACAAAAAEAIA=</HashCode>
+      <FileName>J:\FileZilla_Server\source\Options.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPermissionsHelperWindow" Collapsed="true">
+    <Position X="3.25" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAACAAAAAAAAAAAkAAAAAAAAAAAAAAAAAABIA=</HashCode>
+      <FileName>J:\FileZilla_Server\source\Permissions.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="t_directory" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAACAAAAAACAACCIARAgAAAAAABAAAEgAAAAA=</HashCode>
+      <FileName>J:\FileZilla_Server\source\Accounts.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="t_group" Collapsed="true">
+    <Position X="10.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAABAAgBIAAAAACUAAAMAEAAIAQAAhYUCQBBAg0I=</HashCode>
+      <FileName>J:\FileZilla_Server\source\Accounts.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="t_user" Collapsed="true">
+    <Position X="10.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAQAAIAAAAAAAAAAIAAAIAAAAAAIAAAgAAAQA=</HashCode>
+      <FileName>J:\FileZilla_Server\source\Accounts.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAdminInterface" Collapsed="true">
+    <Position X="3.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAEAAAAAAAAAUAAABAAAAAAAAQAADAAAAgAAAgA=</HashCode>
+      <FileName>J:\FileZilla_Server\source\AdminInterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAdminListenSocket" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="2" />
+    <InheritanceLine Type="CAsyncSocketEx" ManuallyRouted="true">
+      <Path>
+        <Point X="7.25" Y="5.048" />
+        <Point X="7.25" Y="5.233" />
+        <Point X="0.887" Y="5.233" />
+        <Point X="0.887" Y="6.558" />
+        <Point X="1.5" Y="6.558" />
+        <Point X="1.5" Y="6.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAQAAAAAQAAAIAAAAAAAAAA=</HashCode>
+      <FileName>J:\FileZilla_Server\source\AdminListenSocket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAdminSocket" Collapsed="true">
+    <Position X="1" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAACCACAQBACIAAAAgAAFAEABAQAAKAACAAAAIAA=</HashCode>
+      <FileName>J:\FileZilla_Server\source\AdminSocket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAsyncSocketEx" Collapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAghGYACAEYhUICAGgABIgHQIQMAGBQ8GIIBTGIABQ=</HashCode>
+      <FileName>J:\FileZilla_Server\source\AsyncSocketEx.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAsyncSocketExLayer" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QIAACCwACAAQgEAAUEAAAMBNQAUEAFASsEMTBwCEAAA=</HashCode>
+      <FileName>J:\FileZilla_Server\source\AsyncSocketExLayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAsyncSslSocketLayer" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACXDSKcAhABQEBIkkGIABIAJYAAHBgFQmAICRQjI0OI=</HashCode>
+      <FileName>J:\FileZilla_Server\source\AsyncSslSocketLayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAutoBanManager" Collapsed="true">
+    <Position X="3.5" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAAAAACAAAAAwAKAAAAAACAAMAAA=</HashCode>
+      <FileName>J:\FileZilla_Server\source\autobanmanager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CControlSocket" Collapsed="true">
+    <Position X="3.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACMBwGhGQCgKDSEZAAEATVfkRCRIEEQqEAQnZDAk=</HashCode>
+      <FileName>J:\FileZilla_Server\source\ControlSocket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CExternalIpCheck" Collapsed="true">
+    <Position X="5.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAYACAAkIAACAAAAAAEAABAYEIhAAACAEA=</HashCode>
+      <FileName>J:\FileZilla_Server\source\ExternalIpCheck.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFileLogger" Collapsed="true">
+    <Position X="1.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAEAAIAAAAAIgAAAAAAAAAAgAEAAA=</HashCode>
+      <FileName>J:\FileZilla_Server\source\FileLogger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHashThread" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIBAoAAgAAAAAAECIEBAAAAQQAIEAAIQgIAAA=</HashCode>
+      <FileName>J:\FileZilla_Server\source\hash_thread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CListenSocket" Collapsed="true">
+    <Position X="7.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAIAAAAAAAAgAAIgAAIAgAQgA=</HashCode>
+      <FileName>J:\FileZilla_Server\source\ListenSocket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="COptions" Collapsed="true">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAABAAEAAAAACEBAgAABAQEAAAAAFBAQACICBIKQg=</HashCode>
+      <FileName>J:\FileZilla_Server\source\Options.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PortLease" Collapsed="true">
+    <Position X="1.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAIgAAAAAAEAADAAAAAAAAAAAAAIAAiAAAAAAA=</HashCode>
+      <FileName>J:\FileZilla_Server\source\pasv_port_randomizer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PasvPortRandomizer" Collapsed="true">
+    <Position X="6.25" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAAIAAAAAAAAAAABAAAAAIAAIAAQAAAAIAAiAAAIABA=</HashCode>
+      <FileName>J:\FileZilla_Server\source\pasv_port_randomizer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PasvPortManager" Collapsed="true">
+    <Position X="1" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAQAAEAAAAAAABAAAAAAAAAAAgABAAIAA=</HashCode>
+      <FileName>J:\FileZilla_Server\source\pasv_port_randomizer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUser" Collapsed="true">
+    <Position X="10.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAEAAAAAAgAAAAAAAAkAAAI=</HashCode>
+      <FileName>J:\FileZilla_Server\source\Permissions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPermissions" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DQRg4AACAAAAAAAkAAggCAAxogQADQBIEAAGJBBIEEA=</HashCode>
+      <FileName>J:\FileZilla_Server\source\Permissions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CServer" Collapsed="true">
+    <Position X="8.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCEABAEEQCgGBgAUIIAIAMIAAIQBAGABDAIAAAAEAMA=</HashCode>
+      <FileName>J:\FileZilla_Server\source\Server.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CServerThread" Collapsed="true">
+    <Position X="8.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kKMBMBCRyAAEAAB2AIJKAQCRCAGUUAwACAAkAsEcJIw=</HashCode>
+      <FileName>J:\FileZilla_Server\source\ServerThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSpeedLimit" Collapsed="true">
+    <Position X="3.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIgYAAAAAIAAABAIAAgBIAgAAAAgAAAIAAAAAAQAA=</HashCode>
+      <FileName>J:\FileZilla_Server\source\SpeedLimit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CThread" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEIAAgAAAAAAAAAAAAAAAgRAAAAAUYAhAAARAAAAAI=</HashCode>
+      <FileName>J:\FileZilla_Server\source\Thread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTransferSocket" Collapsed="true">
+    <Position X="10" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIphEYAYkQoAhJJAAFQJIFAwECIAqCcAyeCBA=</HashCode>
+      <FileName>J:\FileZilla_Server\source\TransferSocket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
